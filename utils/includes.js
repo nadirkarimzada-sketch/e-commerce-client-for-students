@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
 
   const footers = document.querySelectorAll("#footer");
-  const headers = document. querySelectorAll("#header");
+  const headers = document.querySelectorAll("#header");
 
   for (let footer of footers ){
     const src = footer.getAttribute("src");
